@@ -1,0 +1,44 @@
+class SpecialPattern {
+    public static void main(String[] args) {
+        int n = 3; // levels
+        // Upper part
+        for (int i = 1; i <= n; i++) {
+            // Left spaces
+            for (int s = i; s < n; s++) {
+                System.out.print("  "); // 6 spaces
+            }
+            // Increasing letters
+            for (int j = 1; j <= i; j++) {
+                System.out.print((char)(64 + j));
+
+                if (j < i)
+                    System.out.print(" "); // inner spacing
+            }
+            // Decreasing letters
+            for (int j = i - 1; j >= 1; j--) {
+                System.out.print(" " + (char)(64 + j));
+            }
+
+            System.out.println();
+        }
+
+        // Lower part
+        for (int i = n - 1; i >= 1; i--) {
+            // Left spaces
+            for (int s = n; s > i; s--) {
+                System.out.print("  ");
+            }
+            // Increasing letters
+            for (int j = 1; j <= i; j++) {
+                System.out.print((char)(64 + j));
+                if (j < i)
+                    System.out.print(" ");
+            }
+            // Decreasing letters
+            for (int j = i - 1; j >= 1; j--) {
+                System.out.print("  " + (char)(64 + j));
+            }
+            System.out.println();
+        }
+    }
+}

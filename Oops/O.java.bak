@@ -1,0 +1,16 @@
+class  O
+{
+	static int i;
+	int j;
+	public static void main(String[] args) 
+	{
+		O.i=10;
+		O o1=new O();
+		o1.j=20;
+		O.o2=new O();
+		o2.j=30;
+		System.out.println(O.i);
+		System.out.println(o1.j);
+		System.out.println(o2.j);
+	}
+}

@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class BinaryTODecimal
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a num: ");
+		Scanner scn=new Scanner(System.in);
+		int bin=scn.nextInt();
+		int res = 0;
+		int i = 1;
+		
+		while(bin>0)
+		{
+			res += (bin%10)*i;
+			i*=2;
+			bin/=10;
+			
+		}
+		System.out.println(res);
+	}
+}
+
+          /* 
+          Enter a num:
+          110110
+          54
+          
+          C:\Jspider>java BinaryTODecimal
+          Enter a num:
+          111101
+          61
+          */

@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "G",
+            "request": "launch",
+            "mainClass": "Datatypes.G",
+            "projectName": "Jspider"
+        },
+        {
+            "type": "java",
+            "name": "Automorphic",
+            "request": "launch",
+            "mainClass": "recursion.Automorphic",
+            "projectName": "Numbers"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "practice.Test",
+            "projectName": "Jspider"
+        },
+        {
+            "type": "java",
+            "name": "Number",
+            "request": "launch",
+            "mainClass": "Number",
+            "projectName": "Jspider"
+        },
+        {
+            "type": "java",
+            "name": "Error",
+            "request": "launch",
+            "mainClass": "Error",
+            "projectName": "Jspider"
+        },
+        {
+            "type": "java",
+            "name": "LogicNOT",
+            "request": "launch",
+            "mainClass": "LogicNOT",
+            "projectName": "Jspider"
+        },
+        {
+            "type": "java",
+            "name": "Logic",
+            "request": "launch",
+            "mainClass": "Logic",
+            "projectName": "Jspider"
+        },
+        {
+            "type": "java",
+            "name": "EvenOddExample",
+            "request": "launch",
+            "mainClass": "EvenOddExample",
+            "projectName": "Jspider"
+        },
+        {
+            "type": "java",
+            "name": "p3a",
+            "request": "launch",
+            "mainClass": "p3a",
+            "projectName": "Jspider"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open link.html",
+            "file": "c:\\Users\\sangv\\OneDrive\\Desktop\\WEB\\link.html"
+        }
+    ]
+}

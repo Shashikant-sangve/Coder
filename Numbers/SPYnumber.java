@@ -1,0 +1,56 @@
+import java.util.Scanner;
+class SPYnumber  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a num: ");
+		Scanner scn=new Scanner(System.in);
+		int n=scn.nextInt();
+		int sum=0;
+		int prod = 1;
+	   // int temp=n;
+		while(n > 0){
+			sum += n%10;
+			prod *= n%10;
+			n /= 10;
+		}
+			System.out.println(sum==prod?"spy number":"Not spy number");
+			/*int prod=1;
+			n=temp;
+		while(n > 0){
+			prod *= n%10;
+			n /= 10;
+		}
+			System.out.println(prod);
+			if(sum==prod)
+		{
+				System.out.println("spy number");
+		}
+		else
+		{
+			System.out.println("Not spy number");
+		}*/
+	}
+}
+
+/*
+Enter a num:
+1124
+8
+8
+spy number
+
+C:\Jspider>java SPYnumber
+Enter a num:
+123
+6
+6
+spy number
+
+C:\Jspider>java SPYnumber
+Enter a num:
+456
+15
+120
+Not spy number
+*/

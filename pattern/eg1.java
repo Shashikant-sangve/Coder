@@ -1,0 +1,45 @@
+class eg1
+{
+	public static void main(String[] args) 
+	{
+		int n=5;
+		int sp = n-1;
+		int st = 1;
+		
+		for(int i=1; i<=n; i++)
+		{
+			int p=0;
+			
+			for(int j=1; j<=sp; j++)
+				System.out.print("  ");
+			for(int k=1; k<=st; k++){
+				if(k<=i){
+		System.out.print(k+" ");
+		p=k;
+		}
+		}
+		else
+			System.out.print(--p+" ");
+		f(i>=n/2){
+						if((n/2)>k){
+							System.out.print(k+" ");
+		}else{
+			--k;
+			
+			System.out.print(k+" ");
+		}}
+			
+		System.out.println();
+		if(i<=n/2){
+		sp--;
+		st+=2;
+		}else{
+			sp++;
+		st-=2;
+		//ch++;
+		
+		}
+		
+	}
+}
+}

@@ -1,0 +1,15 @@
+class D 
+{
+	int i = 1;
+	public static void main(String[] args) 
+	{
+		System.out.println(D.i);
+		D.M1();
+	}
+		public static void M1()
+			{
+			System.out.println("M1 starts");
+			System.out.println(D.i);
+			System.out.println("M1 ends");
+		}
+}

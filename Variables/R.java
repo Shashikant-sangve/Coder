@@ -1,0 +1,11 @@
+class R 
+{
+	public static void main(String[] args) 
+	{
+		int age = 25;
+		System.out.println("my age is : "+age);
+		int a = 10;
+		int b = 20;
+		System.out.println(a+" + "+b+" = "+(a+b));
+	}
+}
